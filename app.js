@@ -6,7 +6,7 @@ const port = 3000;
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAdtwGyDKGTWOtxJjQtSS75hwVEmMc2JH0",
+  apiKey: process.env.FIREBASE_KEY,
   authDomain: "exercise-5-f0511.firebaseapp.com",
   projectId: "exercise-5-f0511",
   storageBucket: "exercise-5-f0511.firebasestorage.app",
